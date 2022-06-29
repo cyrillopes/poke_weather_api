@@ -62,7 +62,7 @@ function showPosition(data) {
       const imgURL = `http://openweathermap.org/img/wn/${icon}@2x.png`;
 
       x.src = imgURL;
-      y.innerHTML = `${temp}`;
+      y.innerHTML = `${temp}° C`;
     });
 
   // x.innerText = `Latitude is ${latitude} and Longitude is ${longitude}`;
