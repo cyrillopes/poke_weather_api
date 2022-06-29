@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POKE</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <!-- Css -->
+    <link rel="stylesheet" href="index.css">
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+</head>
+
+<body>
+    <!-- header Section -->
+    <header>
+        <div class="background-img"></div>
+        <div id="nav">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid nav-content">
+
+
+                    <div class="logo-container">
+                        <a class="navbar-brand navbar-heading" href="#index.html"><img src="img/poke-logo.png"
+                                alt=""></a>
+
+                    </div>
+                    <img class="icon"></img>
+                    <p class="temp"></p>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                        <ul class="navbar-nav ms-auto mb-lg-0 my-2 my-lg-0 navbar-nav-scroll">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#">Add restaurant</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Log in</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link">Sign up</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div id="logo">
+                <span>Poke</span>
+            </div>
+            <div id="heading">
+                <h1>Discover the best food & drinks</h1>
+            </div>
+            <div class=" search">
+                <select id="location" class=" search-form-control " aria-label="Default select example">
+                    <option value="null" disabled selected hidden>Enter Location</option>
+                </select>
+                <span class="input-line"> </span>
+                <select id="restaurants" class=" search-form-control">
+                    <option value="null" disabled selected hidden>Select Restaurant</option>
+
+                </select>
+            </div>
+        </div>
+    </header>
+    <!-- Category -->
+    <div id="category">
+        <div class="category-heading">Choose By Category</div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="card category">
+                    <img src="img/food 1.png" class="card-img-top" alt="...">
+                    <div class="card-body align-para">
+                        <p class="card-text">Poke Vegetable Salad Pasta</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card category">
+                    <img src="img/food 2.png" class="card-img-top" alt="...">
+                    <div class="card-body align-para">
+                        <p class="card-text">Poke Fish Vegetable Salad</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card category">
+                    <img src="img/food 9.png" class="card-img-top" alt="...">
+                    <div class="card-body align-para">
+                        <p class="card-text">Sashimi Poke Sushi</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card category">
+                    <img src="img/food 8.png" class="card-img-top" alt="...">
+                    <div class="card-body align-para">
+                        <p class="card-text">California maki Sushi</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card category">
+                    <img src="img/food 11.png" class="card-img-top" alt="...">
+                    <div class="card-body align-para">
+                        <p class="card-text">Poke Minestrone Pasta</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card category">
+                    <img src="img/food 6.png" class="card-img-top" alt="...">
+                    <div class="card-body align-para">
+                        <p class="card-text">Poke Food Bowl Egg</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Quick Search -->
+    <div id="category">
+        <div class="category-heading">Quick Search</div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-6">
+                <div class="card quick-search">
+                    <img src="img/food 3.png" class="card-img-top" alt="Poke Pizza Salad">
+                    <div class="card-body">
+                        <h5 class="card-title search-title">Poke Pizza Salad</h5>
+                        <p class="card-text">Poke Pizza Salad, SALMON, leaf Vegetable</p>
+                        <div class="cost">
+                            <div class="price">
+                                <h3>&#8377 999</h3>
+                            </div>
+                            <a href="#" class="btn order">Order</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="card quick-search">
+                    <img src="img/food 12.png" class="card-img-top" alt="Poke Pizza Salad">
+                    <div class="card-body">
+                        <h5 class="card-title search-title">Poke Pasta</h5>
+                        <p class="card-text">Poke Pasta, Egg Salad, Shaka leaf Vegetable</p>
+                        <div class="cost">
+                            <div class="price">
+                                <h3>&#8377 899</h3>
+                            </div>
+                            <a href="#" class="btn order">Order</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="card quick-search">
+                    <img src="img/food 5.png" class="card-img-top" alt="Poke Pizza Salad">
+                    <div class="card-body">
+                        <h5 class="card-title search-title">Poke Rolls with Fries</h5>
+                        <p class="card-text">Poke Deep Fries with Peri-Peri sprinkles</p>
+                        <div class="cost">
+                            <div class="price">
+                                <h3>&#8377 999</h3>
+                            </div>
+                            <a href="#" class="btn order">Order</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="card quick-search">
+                    <img src="img/food 4.png" class="card-img-top" alt="Poke Pizza Salad">
+                    <div class="card-body">
+                        <h5 class="card-title search-title">Donuts Sushi</h5>
+                        <p class="card-text">Poke Donuts Sushi Japanese Cuisine, Touch of Sashimi Sauce</p>
+                        <div class="cost">
+                            <div class="price">
+                                <h3>&#8377 799</h3>
+                            </div>
+                            <a href="#" class="btn order">Order</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="card quick-search">
+                    <img src="img/food 10.png" class="card-img-top" alt="Poke Pizza Salad">
+                    <div class="card-body">
+                        <h5 class="card-title search-title">California roll</h5>
+                        <p class="card-text">Poke California roll Sushi Gimbap Japanese Cuisine Buffet, Sushi</p>
+                        <div class="cost">
+                            <div class="price">
+                                <h3>&#8377 1299</h3>
+                            </div>
+                            <a href="#" class="btn order">Order</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="card quick-search">
+                    <img src="img/food 7.png" class="card-img-top" alt="Poke Pizza Salad">
+                    <div class="card-body">
+                        <h5 class="card-title search-title">Poke Thai Vegetarian Salad</h5>
+                        <p class="card-text">Poke Thai Vegetarian Salad, SALMON, leaf Vegetable</p>
+                        <div class="cost">
+                            <div class="price">
+                                <h3>&#8377 399</h3>
+                            </div>
+                            <a href="#" class="btn order">Order</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Offers -->
+    <div id="offers">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="card offer-card mb-3" style="max-width: 540px;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="img/food 13.png" class="img-fluid rounded-start offer-img" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body offer-content">
+                                    <h5 class="card-title offer-title">Tasty Thursday</h5>
+                                    <p class="card-text offer-text">20% Off</p>
+                                    <button type="button" class="btn ">Order Now</button>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card offer-card mb-3" style="max-width: 540px;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="img/food 14.png" class="img-fluid rounded-start offer-img" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body offer-content">
+                                    <h5 class="card-title offer-title">Sunday Special</h5>
+                                    <p class="card-text offer-text">15% Off</p>
+                                    <button type="button" class="btn rounded-corners">Order Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+</body>
+
+</html>
